@@ -4,6 +4,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { FcBusinessman } from "react-icons/fc"
 import james from "../assets/james.jpg"
 const Main = () => {
+
   return (
     <div id="main">
       <img
@@ -35,8 +36,8 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-evenly pt-6 max-w-[200px] w-full">
-            <FaLinkedinIn className="cursor-pointer" size={20} />
-            <FaGithub className="cursor-pointer" size={20} />
+            <a href="https://www.linkedin.com/in/carlos-bratini-008962246/"  target="_blank" name="linkedIn"> <FaLinkedinIn className="cursor-pointer" size={20} /></a>
+            <a href="https://github.com/Bratini89" target="_blank" name="github" ><FaGithub className="cursor-pointer" size={20} /></a>
           </div>
         </div>
       </div>
