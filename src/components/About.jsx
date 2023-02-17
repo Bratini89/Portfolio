@@ -8,10 +8,9 @@ const About = () => {
         About
       </h1>
       <img src="../assets/EcommerceNodeJs.png" alt="" />
-      <Container className="text-center items-center flex">
+      <Container className="text-center m-auto items-center flex">
         <Row>
-          <Col>
-        
+          <Col className="m-auto">
             <p className="my-2 text-base font-normal text-stone-500">
             Hi, I'm Carlos Bratini, a web developer with experience in HTML, CSS, JavaScript, React.js, Redux, Tailwind, Bootstrap, Node.js, PostgreSQL, and Git and others technologies.
             </p>
@@ -27,8 +26,8 @@ const About = () => {
             </ul>
           </Col>
           <Col>
-          <Card style={{ width: '25rem', borderRadius: '50px', boxShadow: "3px 3px 10px 3px lightblue" }}>
-      <Card.Img style={{ borderRadius: '50px'}} variant="top" src={carlos} />
+          <Card className="m-auto" style={{ width: "18rem" , borderRadius: '50px', boxShadow: "3px 3px 10px 3px lightblue" }}>
+      <Card.Img style={{  borderRadius: '50px'}} variant="top" src={carlos} />
     </Card>
           </Col>
         </Row>
