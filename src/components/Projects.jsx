@@ -11,15 +11,9 @@ import RickyAndMorty from "../assets/RickyAndMorty.png";
 const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px]  m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">
+      <h1 className="text-4xl mb-10 mt-4 font-bold text-center text-[#001b5e]">
         Projects
       </h1>
-      <p className="text-center py-8">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorem
-        neque sequi quisquam, rem mollitia deleniti aspernatur culpa illum,
-        quasi, suscipit impedit veritatis itaque! Consectetur pariatur quae
-        quidem molestias minus.
-      </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <Projectitem img={UserCrud} title="User Crud App" />
         <Projectitem img={Pokedex} title="Pokemon App" />

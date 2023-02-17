@@ -1,6 +1,6 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-
+import { Card, Col, Container, Row } from "react-bootstrap";
+import carlos from "../assets/Carlos-Bratini.png"
 const About = () => {
   return (
     <div className="mt-4 mb-4">
@@ -8,43 +8,28 @@ const About = () => {
         About
       </h1>
       <img src="../assets/EcommerceNodeJs.png" alt="" />
-      <Container className="text-center items-center">
+      <Container className="text-center items-center flex">
         <Row>
           <Col>
-            <p className="text-left w-full py-8">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-              molestias excepturi optio doloremque quia quas, ipsa unde dolorem
-              architecto magni beatae possimus repudiandae aliquid nostrum
-              provident amet dicta. Aspernatur, officiis!
+        
+            <p className="my-2 text-base font-normal text-stone-500">
+            Hi, I'm Carlos Bratini, a web developer with experience in HTML, CSS, JavaScript, React.js, Redux, Tailwind, Bootstrap, Node.js, PostgreSQL, and Git and others technologies.
             </p>
-            <p className="text-left  w-full py-8">
-              Over the years, I have worked on a wide variety of programming
-              projects, from creating mobile apps to building large-scale web
-              applications. I have experience with several different programming
-              languages, including list some of the programming languages you
-              know, and I'm always eager to learn more.{" "}
+            <p className="my-2 text-base font-normal  text-stone-500">
+            I am a passionate young person who is continuously eager to learn new things, especially in the world of technology. I have a strong desire to be part of and contribute to the growth of this field with the knowledge that I have acquired.
             </p>
-            <p className="text-left w-full py-8">
-              As a programmer, I am committed to writing code that is not only
-              functional, but also efficient, maintainable, and scalable. I
-              believe that good code should be easy to understand and easy to
-              build upon, and I always strive to make my code as clean and
-              well-organized as possible.
+            <p className="my-2 text-base font-normal text-stone-500" >
+            Here you can see some of the certificates I have obtained in web development.
             </p>
-            <p className="text-left w-full py-8">
-              In addition to my technical skills, I pride myself on my ability
-              to work well with others. I believe that good communication and
-              collaboration are essential to the success of any project, and I'm
-              always eager to work with other programmers, designers, and
-              stakeholders to create the best possible solutions.
-            </p>
+            <ul>
+              <li><a href="https://certificates.academlo.com/en/credentials/carlosbratini576331" target="_blank">Academlo Programing School 4 Certificates</a></li>
+              <li><a href="https://www.freecodecamp.org/certification/bratini/responsive-web-design" target="_blank">FreecodeCamp</a></li>
+            </ul>
           </Col>
-          <Col xs={4}>
-            <img
-              className="rounded-t-full shadow-xl shadow-gray-600"
-              src="https://scontent.fhex5-2.fna.fbcdn.net/v/t1.6435-9/60356900_10158444842623272_7941607964408807424_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeE6-YpSib4DhNtyLG4xxsv3CFlWn4AlyagIWVafgCXJqKbMw0BqrOZrczpgMlYbEeA&_nc_ohc=8Ht8th8cu7kAX-3x_Ob&_nc_ht=scontent.fhex5-2.fna&oh=00_AfCzkoOj9O1Ew1Tvv0TWBivmQJEfJf_fpfmiyAL6r_b-Jw&oe=64150D9B"
-              alt=""
-            />
+          <Col>
+          <Card style={{ width: '25rem', borderRadius: '50px', boxShadow: "3px 3px 10px 3px lightblue" }}>
+      <Card.Img style={{ borderRadius: '50px'}} variant="top" src={carlos} />
+    </Card>
           </Col>
         </Row>
       </Container>

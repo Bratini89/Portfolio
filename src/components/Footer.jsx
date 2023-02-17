@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+
 
 const Footer = () => {
   return (
