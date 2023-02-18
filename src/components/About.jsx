@@ -21,8 +21,8 @@ const About = () => {
             Here you can see some of the certificates I have obtained in web development.
             </p>
             <ul>
-              <li><a href="https://certificates.academlo.com/en/credentials/carlosbratini576331" target="_blank">Academlo Programing School 4 Certificates</a></li>
-              <li><a href="https://www.freecodecamp.org/certification/bratini/responsive-web-design" target="_blank">FreecodeCamp</a></li>
+              <li className="cursor-pointer"><a href="https://certificates.academlo.com/en/credentials/carlosbratini576331" target="_blank">Academlo Programing School 4 Certificates</a></li>
+              <li className="cursor-pointer"><a href="https://www.freecodecamp.org/certification/bratini/responsive-web-design" target="_blank">FreecodeCamp</a></li>
             </ul>
           </Col>
           <Col>

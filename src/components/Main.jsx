@@ -3,6 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { FcBusinessman } from "react-icons/fc"
 import james from "../assets/james.jpg"
+
 const Main = () => {
 
   return (
