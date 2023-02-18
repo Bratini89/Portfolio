@@ -9,14 +9,16 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
+import ParticlesBackground from "./components/config/ParticlesBackground";
 
 
 
 function App() {
   return (
     <div>
+      <ParticlesBackground />
       <Sidenav />
-      <Main />
+      <Main  />
       <About />
       <Work />
       <Skills />
