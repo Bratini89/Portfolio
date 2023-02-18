@@ -117,7 +117,7 @@ const Projects = () => {
               <Card.Text className="text-center my-2 text-base font-normal text-stone-500">
               React Js, Redux, Boostrap-React, React-Route, Axios, CSS3. 
                 <br /> <br />
-                <Button href="https://users-crud-89.netlify.app/" target="_blank" variant="outline-dark" size="sm">
+                <Button href="https://ecommerce-reactt.netlify.app/" target="_blank" variant="outline-dark" size="sm">
                 CLICK ME TO WATCH THE DEMO
               </Button>
               </Card.Text>
@@ -147,7 +147,7 @@ const Projects = () => {
               <Card.Text className="text-center my-2 text-base font-normal text-stone-500">
                 Html and Css
                 <br /><br />
-                <Button href="https://users-crud-89.netlify.app/" target="_blank" variant="outline-info" size="sm">
+                <Button href="https://marvelous-brigadeiros-f2ed19.netlify.app/" target="_blank" variant="outline-info" size="sm">
                 CLICK ME TO WATCH THE DEMO
               </Button>
               </Card.Text>
