@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import carlos from "../assets/Carlos-Bratini.png"
-import ParticlesBackground from "./config/ParticlesBackground";
 const About = () => {
   return (
     <div className="mt-4 mb-4">
