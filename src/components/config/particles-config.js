@@ -1,23 +1,23 @@
 const particlesConfig = {
   particles: {
     number: {
-      value: 6,
+      value: 160,
       density: {
         enable: true,
         value_area: 800,
       },
     },
     color: {
-      value: "#9ea0ac",
+      value: "#000000",
     },
     shape: {
-      type: "star",
+      type: "circle",
       stroke: {
         width: 0,
-        color: "#890e0e",
+        color: "#000000",
       },
       polygon: {
-        nb_sides: 6,
+        nb_sides: 5,
       },
       image: {
         src: "img/github.svg",
@@ -26,35 +26,35 @@ const particlesConfig = {
       },
     },
     opacity: {
-      value: 0.3,
+      value: 1,
       random: true,
       anim: {
-        enable: false,
+        enable: true,
         speed: 1,
-        opacity_min: 0.1,
+        opacity_min: 0,
         sync: false,
       },
     },
     size: {
-      value: 160,
-      random: false,
+      value: 3,
+      random: true,
       anim: {
-        enable: true,
-        speed: 10,
-        size_min: 40,
+        enable: false,
+        speed: 4,
+        size_min: 0.3,
         sync: false,
       },
     },
     line_linked: {
       enable: false,
-      distance: 200,
+      distance: 150,
       color: "#ffffff",
-      opacity: 1,
-      width: 2,
+      opacity: 0.4,
+      width: 1,
     },
     move: {
       enable: true,
-      speed: 8,
+      speed: 1,
       direction: "none",
       random: true,
       straight: false,
@@ -63,7 +63,7 @@ const particlesConfig = {
       attract: {
         enable: false,
         rotateX: 600,
-        rotateY: 1200,
+        rotateY: 600,
       },
     },
   },
@@ -72,11 +72,11 @@ const particlesConfig = {
     events: {
       onhover: {
         enable: false,
-        mode: "bubble",
+        mode: "grab",
       },
       onclick: {
-        enable: true,
-        mode: "push",
+        enable: false,
+        mode: "remove",
       },
       resize: true,
     },
@@ -88,14 +88,14 @@ const particlesConfig = {
         },
       },
       bubble: {
-        distance: 400,
-        size: 40,
+        distance: 250,
+        size: 0,
         duration: 2,
-        opacity: 8,
+        opacity: 0,
         speed: 3,
       },
       repulse: {
-        distance: 200,
+        distance: 400,
         duration: 0.4,
       },
       push: {
