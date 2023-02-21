@@ -2,7 +2,11 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div style={{boxShadow: "3px 3px 10px 3px lightblue"}} id="contact" className="max-w-[1040px] m-auto  md:pl-20 p-4 py-16  bg-slate-400/10 rounded-lg">
+    <div
+      style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
+      id="contact"
+      className="max-w-[1040px] m-auto  md:pl-20 p-4 py-16  bg-slate-400/10 rounded-lg"
+    >
       <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e]">
         Contact
       </h1>
@@ -14,7 +18,8 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-4 w-full py-2">
           <div className="flex flex-col">
             <label className="uppercase text-sm py-2">Name</label>
-            <input style={{boxShadow: "3px 3px 10px 3px lightblue"}}
+            <input
+              style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
               className="border-2 rounded-lg p-3 flex border-gray-300"
               type="text"
               name="name"
@@ -23,7 +28,8 @@ const Contact = () => {
           </div>
           <div className="flex flex-col">
             <label className="uppercase text-sm py-2">Phone</label>
-            <input style={{boxShadow: "3px 3px 10px 3px lightblue"}}
+            <input
+              style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
               className="border-2 rounded-lg p-3 flex border-gray-300"
               type="text"
               name="phone"
@@ -32,7 +38,8 @@ const Contact = () => {
         </div>
         <div className="flex flex-col py-2">
           <label className="uppercase text-sm py-2">Email</label>
-          <input style={{boxShadow: "3px 3px 10px 3px lightblue"}}
+          <input
+            style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
             className="border-2 rounded-lg p-3 flex border-gray-300"
             type="email"
             name="email"
@@ -40,7 +47,8 @@ const Contact = () => {
         </div>
         <div className="flex flex-col py-2">
           <label className="uppercase text-sm py-2">Subject</label>
-          <input style={{boxShadow: "3px 3px 10px 3px lightblue"}}
+          <input
+            style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
             className="border-2 rounded-lg p-3 flex border-gray-300"
             type="text"
             name="subject"
@@ -48,7 +56,8 @@ const Contact = () => {
         </div>
         <div className="flex flex-col py-2">
           <label className="uppercase text-sm py-2">Message</label>
-          <textarea style={{boxShadow: "3px 3px 10px 3px lightblue"}}
+          <textarea
+            style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
             className="border-2 rounded-lg p-3 border-gray-300"
             rows="10"
             name="message"
