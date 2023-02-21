@@ -3,7 +3,7 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import carlos from "../assets/Carlos-Bratini.png";
 import certificados from "../certificate/certificates.png";
 import freecodecamp from "../certificate/freecodeCamp.png";
-import cv from "../document/CarlosBratiniC.pdf";
+import cv from "../document/Carlos-Bratini-.pdf";
 const About = () => {
   return (
     <div className="mt-4 mb-4">
