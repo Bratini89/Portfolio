@@ -10,7 +10,6 @@ const About = () => {
       <h1 className="text-4xl font-bold text-center text-[#001b5e] mt-4 mb-4">
         About
       </h1>
-      <img src="../assets/EcommerceNodeJs.png" alt="" />
       <Container className="text-center m-auto items-center flex">
         <Row>
           <Col className="m-auto">
@@ -67,15 +66,14 @@ const About = () => {
           </Col>
         </Row>
       </Container>
-      
       <div className="mt-4 mb-4 flex text-center">
         <Container className="text-center m-auto items-center flex">
           <Row className="m-auto">
             <h1 className="text-4xl font-bold text-center text-[#001b5e] mt-4 mb-4">
               Certificates
             </h1>
-            <Col>
-              <Card style={{ width: "18rem" }}>
+            <Col className="mb-2">
+              <Card style={{ width: "25rem" }}>
                 <Card.Img variant="top" src={certificados} />
                 <Card.Body>
                   <Card.Title>4 Certificates Academlo</Card.Title>
@@ -93,7 +91,7 @@ const About = () => {
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: "18rem" }}>
+              <Card style={{ width: "25rem" }}>
                 <Card.Img variant="top" src={freecodecamp}/>
                 <Card.Body>
                   <Card.Title>FreeCodeCamp</Card.Title>
