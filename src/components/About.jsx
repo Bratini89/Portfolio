@@ -73,7 +73,7 @@ const About = () => {
               Certificates
             </h1>
             <Col className="mb-2">
-              <Card style={{ width: "25rem" }}>
+              <Card style={{ width: "18rem", boxShadow: "3px 3px 10px 3px lightblue" }}>
                 <Card.Img variant="top" src={certificados} />
                 <Card.Body>
                   <Card.Title>4 Certificates Academlo</Card.Title>
@@ -91,7 +91,7 @@ const About = () => {
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: "25rem" }}>
+              <Card style={{ width: "18rem", boxShadow: "3px 3px 10px 3px lightblue" }}>
                 <Card.Img variant="top" src={freecodecamp}/>
                 <Card.Body>
                   <Card.Title>FreeCodeCamp</Card.Title>

@@ -18,7 +18,7 @@ const Projects = () => {
       </h1>
       <Row xs={1} md={2} xl={3} className="g-4 ">
         <Col>
-          <Card>
+          <Card style={{boxShadow: "3px 3px 10px 3px lightblue"}}>
             <Card.Img variant="top" src={UserCrud} />
             <Card.Body>
               <Card.Title className="text-center ">
@@ -35,7 +35,7 @@ const Projects = () => {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card style={{boxShadow: "3px 3px 10px 3px lightblue"}}>
             <Card.Img variant="top" src={academlo} />
             <Card.Body>
               <Card.Title className="text-center">E-Commerce</Card.Title>
@@ -50,7 +50,7 @@ const Projects = () => {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card style={{boxShadow: "3px 3px 10px 3px lightblue"}}>
             <Card.Img variant="top" src={WeatherApp} />
             <Card.Body>
               <Card.Title className="text-center">Weather App</Card.Title>
@@ -65,7 +65,7 @@ const Projects = () => {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card style={{boxShadow: "3px 3px 10px 3px lightblue"}}>
             <Card.Img variant="top" src={RickyAndMorty} />
             <Card.Body>
               <Card.Title className="text-center">Ricky and Morty App</Card.Title>
@@ -80,7 +80,7 @@ const Projects = () => {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card style={{boxShadow: "3px 3px 10px 3px lightblue"}}>
             <Card.Img variant="top" src={Pokedex} />
             <Card.Body>
               <Card.Title className="text-center">Pokemon App</Card.Title>
@@ -95,7 +95,7 @@ const Projects = () => {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card style={{boxShadow: "3px 3px 10px 3px lightblue"}}>
             <Card.Img variant="top" src={RandomQuote} />
             <Card.Body>
               <Card.Title className="text-center">Random quote</Card.Title>
@@ -110,7 +110,7 @@ const Projects = () => {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card style={{boxShadow: "3px 3px 10px 3px lightblue"}}>
             <Card.Img variant="top" src={EcommerceReact} />
             <Card.Body>
               <Card.Title className="text-center">E-Commerce</Card.Title>
@@ -125,7 +125,7 @@ const Projects = () => {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card style={{boxShadow: "3px 3px 10px 3px lightblue"}}>
             <Card.Img variant="top" src={EcommerceNojejs} />
             <Card.Body>
               <Card.Title className="text-center">E-Commerce (Backend)</Card.Title>
@@ -140,7 +140,7 @@ const Projects = () => {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card style={{boxShadow: "3px 3px 10px 3px lightblue"}}>
             <Card.Img variant="top" src={carrusel} />
             <Card.Body>
               <Card.Title className="text-center">Carrusel Img Rotate</Card.Title>
