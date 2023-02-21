@@ -21,7 +21,7 @@ const Main = () => {
             <TypeAnimation
               // Same String at the start will only be typed once, initially
               sequence={[
-                "Developer",
+                "Web developer",
                 2000,
                 "Coder",
                 2000,
