@@ -72,8 +72,8 @@ const About = () => {
             <h1 className="text-4xl font-bold text-center text-[#001b5e] mt-4 mb-4">
               Certificates
             </h1>
-            <Col className="mb-2">
-              <Card style={{ width: "18rem", boxShadow: "3px 3px 10px 3px lightblue" }}>
+            <Col className="mb-2 m-auto">
+              <Card className="m-auto" style={{ width: "18rem", boxShadow: "3px 3px 10px 3px lightblue" }}>
                 <Card.Img variant="top" src={certificados} />
                 <Card.Body>
                   <Card.Title>4 Certificates Academlo</Card.Title>
@@ -90,8 +90,8 @@ const About = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
-              <Card style={{ width: "18rem", boxShadow: "3px 3px 10px 3px lightblue" }}>
+            <Col className="m-auto">
+              <Card className="m-auto" style={{ width: "18rem", boxShadow: "3px 3px 10px 3px lightblue" }}>
                 <Card.Img variant="top" src={freecodecamp}/>
                 <Card.Body>
                   <Card.Title>FreeCodeCamp</Card.Title>
