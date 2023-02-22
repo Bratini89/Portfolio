@@ -18,6 +18,7 @@ const About = () => {
             data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
+            data-aos-duration="2000"
             className="m-auto"
           >
             <p className="my-2 text-base font-normal text-stone-500">
@@ -71,6 +72,7 @@ const About = () => {
               data-aos="fade-left"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
+              data-aos-duration="2000"
               className="m-auto"
               style={{
                 width: "18rem",
@@ -96,6 +98,7 @@ const About = () => {
             <Col className="mb-2 m-auto">
               <Card
                 data-aos="fade-up"
+                data-aos-duration="2000"
                 className="m-auto"
                 style={{
                   width: "18rem",
@@ -131,6 +134,7 @@ const About = () => {
             <Col className="m-auto">
               <Card
                 data-aos="fade-down"
+                data-aos-duration="2000"
                 className="m-auto"
                 style={{
                   width: "18rem",

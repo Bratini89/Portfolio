@@ -20,6 +20,7 @@ const Projects = () => {
         <Col>
           <Card
             data-aos="zoom-in-up"
+            data-aos-duration="2000"
             style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
           >
             <Card.Img variant="top" src={UserCrud} />
@@ -43,6 +44,7 @@ const Projects = () => {
         <Col>
           <Card
             data-aos="zoom-in-up"
+            data-aos-duration="2000"
             style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
           >
             <Card.Img variant="top" src={academlo} />
@@ -67,6 +69,7 @@ const Projects = () => {
         <Col>
           <Card
             data-aos="zoom-in-up"
+            data-aos-duration="2000"
             style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
           >
             <Card.Img variant="top" src={WeatherApp} />
@@ -91,6 +94,7 @@ const Projects = () => {
         <Col>
           <Card
             data-aos="flip-left"
+            data-aos-duration="2000"
             style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
           >
             <Card.Img variant="top" src={RickyAndMorty} />
@@ -117,6 +121,7 @@ const Projects = () => {
         <Col>
           <Card
             data-aos="flip-left"
+            data-aos-duration="2000"
             style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
           >
             <Card.Img variant="top" src={Pokedex} />
@@ -142,6 +147,7 @@ const Projects = () => {
         <Col>
           <Card
             data-aos="flip-left"
+            data-aos-duration="2000"
             style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
           >
             <Card.Img variant="top" src={RandomQuote} />
@@ -166,6 +172,7 @@ const Projects = () => {
         <Col>
           <Card
             data-aos="flip-right"
+            data-aos-duration="2000"
             style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
           >
             <Card.Img variant="top" src={EcommerceReact} />
@@ -189,6 +196,7 @@ const Projects = () => {
         <Col>
           <Card
             data-aos="flip-right"
+            data-aos-duration="2000"
             style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
           >
             <Card.Img variant="top" src={EcommerceNojejs} />
@@ -216,6 +224,7 @@ const Projects = () => {
         <Col>
           <Card
             data-aos="flip-right"
+            data-aos-duration="2000"
             style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
           >
             <Card.Img variant="top" src={carrusel} />

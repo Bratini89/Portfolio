@@ -30,6 +30,7 @@ const Skills = () => {
           <Col className="m-auto">
             <Card
               data-aos="flip-down"
+              data-aos-duration="2000"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -45,6 +46,7 @@ const Skills = () => {
           <Col>
             <Card
               data-aos="flip-down"
+              data-aos-duration="2000"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -60,6 +62,7 @@ const Skills = () => {
           <Col>
             <Card
               data-aos="flip-down"
+              data-aos-duration="2000"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -75,6 +78,7 @@ const Skills = () => {
           <Col>
             <Card
               data-aos="flip-down"
+              data-aos-duration="2000"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -92,6 +96,7 @@ const Skills = () => {
           <Col>
             <Card
               data-aos="flip-down"
+              data-aos-duration="2000"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -107,6 +112,7 @@ const Skills = () => {
           <Col>
             <Card
               data-aos="flip-down"
+              data-aos-duration="2000"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -122,6 +128,7 @@ const Skills = () => {
           <Col>
             <Card
               data-aos="flip-down"
+              data-aos-duration="2000"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -137,6 +144,7 @@ const Skills = () => {
           <Col>
             <Card
               data-aos="flip-down"
+              data-aos-duration="2000"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -154,6 +162,7 @@ const Skills = () => {
           <Col>
             <Card
               data-aos="flip-down"
+              data-aos-duration="2000"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -169,6 +178,7 @@ const Skills = () => {
           <Col>
             <Card
               data-aos="flip-down"
+              data-aos-duration="2000"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -184,6 +194,7 @@ const Skills = () => {
           <Col>
             <Card
               data-aos="flip-down"
+              data-aos-duration="2000"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -199,6 +210,7 @@ const Skills = () => {
           <Col>
             <Card
               data-aos="flip-down"
+              data-aos-duration="2000"
               className="m-auto"
               style={{
                 width: "10rem",

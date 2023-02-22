@@ -9,7 +9,7 @@ const Main = () => {
     <div
       data-aos="fade-down"
       data-aos-easing="linear"
-      data-aos-duration="1500"
+      data-aos-duration="2000"
       id="main"
     >
       <img
