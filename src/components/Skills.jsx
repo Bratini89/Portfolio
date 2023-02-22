@@ -15,9 +15,10 @@ import database from "../img/database.png";
 
 const Skills = () => {
   return (
-    <div data-aos="fade-down"
-    data-aos-easing="linear"
-    data-aos-duration="1500"
+    <div
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
       style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
       className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-slate-400/10 rounded-lg "
     >
@@ -28,6 +29,7 @@ const Skills = () => {
         <Row className="mb-2 border-none">
           <Col className="m-auto">
             <Card
+              data-aos="flip-down"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -42,6 +44,7 @@ const Skills = () => {
           </Col>
           <Col>
             <Card
+              data-aos="flip-down"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -56,6 +59,7 @@ const Skills = () => {
           </Col>
           <Col>
             <Card
+              data-aos="flip-down"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -70,6 +74,7 @@ const Skills = () => {
           </Col>
           <Col>
             <Card
+              data-aos="flip-down"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -86,6 +91,7 @@ const Skills = () => {
         <Row className="mb-2">
           <Col>
             <Card
+              data-aos="flip-down"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -100,6 +106,7 @@ const Skills = () => {
           </Col>
           <Col>
             <Card
+              data-aos="flip-down"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -114,6 +121,7 @@ const Skills = () => {
           </Col>
           <Col>
             <Card
+              data-aos="flip-down"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -128,6 +136,7 @@ const Skills = () => {
           </Col>
           <Col>
             <Card
+              data-aos="flip-down"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -144,6 +153,7 @@ const Skills = () => {
         <Row>
           <Col>
             <Card
+              data-aos="flip-down"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -158,6 +168,7 @@ const Skills = () => {
           </Col>
           <Col>
             <Card
+              data-aos="flip-down"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -172,6 +183,7 @@ const Skills = () => {
           </Col>
           <Col>
             <Card
+              data-aos="flip-down"
               className="m-auto"
               style={{
                 width: "10rem",
@@ -186,6 +198,7 @@ const Skills = () => {
           </Col>
           <Col>
             <Card
+              data-aos="flip-down"
               className="m-auto"
               style={{
                 width: "10rem",
