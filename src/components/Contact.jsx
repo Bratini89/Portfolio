@@ -4,6 +4,7 @@ const Contact = () => {
   return (
     <div
       data-aos="zoom-out"
+      data-aos-duration="2000"
       style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
       id="contact"
       className="max-w-[1040px] m-auto  md:pl-20 p-4 py-16  bg-slate-400/10 rounded-lg"

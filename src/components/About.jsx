@@ -3,7 +3,8 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import carlos from "../assets/Carlos-Bratini.png";
 import certificados from "../certificate/certificates.png";
 import freecodecamp from "../certificate/freecodeCamp.png";
-import cv from "../document/Carlos-Bratini-.pdf";
+import Curriculum from "../document/Carlos-Bratini-.pdf";
+
 import Aos from "aos";
 
 const About = () => {
@@ -62,7 +63,7 @@ const About = () => {
               size="sm"
             >
               {" "}
-              <a href={cv} download="Developer-Carlos-Bratini-CV">
+              <a href={Curriculum} download="Carlos-Bratini-CV">
                 Download CV
               </a>
             </Button>
