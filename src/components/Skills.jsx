@@ -15,7 +15,9 @@ import database from "../img/database.png";
 
 const Skills = () => {
   return (
-    <div
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"
       style={{ boxShadow: "3px 3px 10px 3px lightblue" }}
       className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-slate-400/10 rounded-lg "
     >

@@ -4,6 +4,8 @@ import carlos from "../assets/Carlos-Bratini.png";
 import certificados from "../certificate/certificates.png";
 import freecodecamp from "../certificate/freecodeCamp.png";
 import cv from "../document/Carlos-Bratini-.pdf";
+import Aos from "aos";
+
 const About = () => {
   return (
     <div className="mt-4 mb-4">
@@ -12,7 +14,12 @@ const About = () => {
       </h1>
       <Container className="text-center m-auto items-center flex">
         <Row>
-          <Col className="m-auto">
+          <Col
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            className="m-auto"
+          >
             <p className="my-2 text-base font-normal text-stone-500">
               Hi, I'm Carlos Bratini, a web developer with experience in HTML,
               CSS, JavaScript, React.js, Redux, Tailwind, Bootstrap, Node.js,
@@ -61,6 +68,9 @@ const About = () => {
           </Col>
           <Col>
             <Card
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
               className="m-auto"
               style={{
                 width: "18rem",
@@ -85,6 +95,7 @@ const About = () => {
             </h1>
             <Col className="mb-2 m-auto">
               <Card
+                data-aos="fade-up"
                 className="m-auto"
                 style={{
                   width: "18rem",
@@ -119,6 +130,7 @@ const About = () => {
             </Col>
             <Col className="m-auto">
               <Card
+                data-aos="fade-down"
                 className="m-auto"
                 style={{
                   width: "18rem",

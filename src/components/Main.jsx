@@ -6,7 +6,9 @@ import james from "../assets/james.jpg";
 
 const Main = () => {
   return (
-    <div id="main">
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500" id="main">
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1]"
         src={james}
